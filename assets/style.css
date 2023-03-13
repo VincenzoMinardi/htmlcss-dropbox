@@ -175,17 +175,13 @@ main{
    background-color: white;
 }
 
-.container-business{
+.business{
     display: flex;
-    
-   
 }
 
 .img-business{
-    height: 250px;
-    
+    width: 100%;
 }
-.flex{
-    flex: 0 1 10%;
-}
+
+
 
