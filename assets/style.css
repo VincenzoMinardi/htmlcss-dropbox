@@ -175,13 +175,25 @@ main{
    background-color: white;
 }
 
-.business{
+.flex-business{
     display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
+
+.flex{
+      flex: 0 1 30%;  
+     
+    
+}
+
+  
+
 
 .img-business{
     width: 100%;
 }
+
 
 
 
