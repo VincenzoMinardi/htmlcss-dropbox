@@ -39,26 +39,35 @@ header{
     
     margin-top: 1rem;
     background-color:rgb(180, 208, 231);
-    width: 100vw;
+    padding: 2.5rem;
     
 }
-
 .container-header{
     margin: auto;
-     max-width: 1150px; 
-   
-}
+     max-width: 1150px;
+     display: flex;
+    }
 
 .title{
    text-align: center;
    font-size: 3rem;
+   padding-bottom: 2rem;
 }
-
 .img-jumbo{
     height: 500px;
 }
 
-.container-img-paragraf{
-    display: flex;
-    gap: 4rem;
+.button-header{
+    margin-top: 40px;
+    height: 40px;
+    width: 200px;
+    background-color: rgb(0, 97, 255);
+    border: none;
+    color: white;
 }
+
+.text-header{
+    margin-top: 20px;
+    
+}
+
