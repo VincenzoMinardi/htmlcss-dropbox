@@ -160,8 +160,8 @@ main{
     color: white;
 }
 
-.img{
-    padding-top: 50px;
+ .img{
+    padding-top: 50px; 
 }
 
 .img-partner{
@@ -173,5 +173,19 @@ main{
    height: 50px;
    width: 150px;
    background-color: white;
+}
+
+.container-business{
+    display: flex;
+    
+   
+}
+
+.img-business{
+    height: 250px;
+    
+}
+.flex{
+    flex: 0 1 10%;
 }
 
