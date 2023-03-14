@@ -15,7 +15,7 @@ nav{
     background-color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
     
 }
 
@@ -25,14 +25,19 @@ nav{
 
 .container-nav-left{
     display: flex;
+    align-items: stretch;
     padding-left: 1rem;
 }
 
 .container-nav-right{
+    display: flex;
+    align-items: stretch;
     padding-right:  1rem;
 }
 
 .text{
+    display: flex;
+    align-items: center;
     padding-right: 1rem;
     padding-left: 10px;
     color: black;
@@ -40,7 +45,8 @@ nav{
 }
 
 .button-nav{
-    height: 25px;
+    padding: 8px;
+   align-self: center;
     background-color: rgb(0, 97, 255);
     border: none;
     color: white;
@@ -49,17 +55,14 @@ nav{
 /* Header */
 
 header{
-    
-   
     background-color:rgb(180, 208, 231);
     padding: 6rem;
-    
 }
 .container-header{
     margin: auto;
-     max-width: 1150px;
-     display: flex;
-    }
+    max-width: 1150px;
+    display: flex;
+}
 
 .title{
    text-align: center;
@@ -68,6 +71,7 @@ header{
 }
 .img-jumbo{
     height: 500px;
+    margin-bottom: -150px;
 }
 
 .button-header,.button-main{
@@ -90,15 +94,13 @@ header{
 
 /* Main */
 
+
 .container-small{
     margin: auto;
     max-width: 1000px; 
-  padding: 50px;
+  padding: 100px;
    
 }
-
-   
-
 
 .input, .information{
     padding-top:50px;
@@ -336,6 +338,9 @@ footer{
     padding-top: 30px;
 }
 
+.arrow{
+    margin-left: 190px;
+}
 
     
 
