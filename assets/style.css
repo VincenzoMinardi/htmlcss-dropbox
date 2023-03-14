@@ -129,11 +129,11 @@ header{
     padding-top:20px;
 }
 
-.text-main,.link-purchase,{
+.text-main, .link-purchase{
     padding-top: 25px;
 }
 
-.text-main-2,{
+.text-main-2{
     padding-top: 40px;
 }
 
@@ -284,6 +284,41 @@ header{
     height: 80px;
     margin: 20px;
 }
+
+.container-square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(180, 208, 231);
+    height: 300px;
+}
+
+.button-main2{
+    height: 40px;
+    width: 200px;
+    margin-left: 50px;
+    border: none;
+}
+
+.color-text2{
+    color: rgb(97, 8, 43);
+}
+
+.text-button{
+    text-decoration: none;
+    color: black;
+}
+
+.space, .paragraf{
+    margin-top: 35px;
+}
+
+
+    
+
+
+
+
 
 
 
