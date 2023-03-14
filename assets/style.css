@@ -223,34 +223,28 @@ header{
 }
 
 .square-small{
+   
     display: flex;
     flex-wrap: wrap;
-    flex: 0 1 34%;
+    flex: 0 1 33.3%;
+    position: relative;
     
 }
 
 .square-mini{
-    flex: 0 1 25%;
     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 1 50%;
+    aspect-ratio: 1/1;
 }
 
-.img-dimension1{
-    height: 68px;
-    width: 230px;
-}
-
-.img-dimension2{
- height: 200px;
-}
-
-.img-dimension3{
-    height: 100px;
-    width: 252px;
-}
-
-.img-dimension4{
-  height: 120px;
-  width: 260px;
+.img-dimension{
+     width: 120px;
+     height: auto;
+     filter: invert(1);  
+    
 }
 
 .color-square1{
@@ -269,6 +263,32 @@ header{
 .color-square4{
     background-color: rgb(255, 28, 28);
 }
+
+.color-small{
+    background-color:rgb(240, 240, 240)
+}
+
+.color-square5{
+    background-color: rgb(180, 208, 231);
+}
+
+.color-square6{
+    background-color: rgb(13, 36, 129);
+}
+
+.color-square7{
+    background-color: rgb(255, 216, 48);
+}
+
+.img-center{
+    height: 80px;
+    margin: 20px;
+}
+
+
+
+
+
 
 
 
