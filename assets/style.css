@@ -313,6 +313,29 @@ header{
     margin-top: 35px;
 }
 
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly
+    
+}
+
+.container-flex3{
+ display: flex;
+}
+
+.text-footer{
+    color: white;
+}
+
+.flex-container{
+    margin: 30px;
+}
+
+.text-space{
+    padding-top: 30px;
+}
+
 
     
 
