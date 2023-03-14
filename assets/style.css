@@ -6,10 +6,21 @@
 }
 /* nav */
 nav{
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-   margin-top: 1rem;
+    
+}
+
+.text:hover{
+    background-color: lightgray;
 }
 
 .container-nav-left{
@@ -24,6 +35,8 @@ nav{
 .text{
     padding-right: 1rem;
     padding-left: 10px;
+    color: black;
+    text-decoration: none;
 }
 
 .button-nav{
@@ -37,9 +50,9 @@ nav{
 
 header{
     
-    margin-top: 1rem;
+   
     background-color:rgb(180, 208, 231);
-    padding: 2.5rem;
+    padding: 6rem;
     
 }
 .container-header{
@@ -66,17 +79,26 @@ header{
     color: white;
 }
 
+.color-text{
+    color: white;
+    text-decoration: none;
+}
+
 .text-header{
     margin-top: 20px;
 }
 
 /* Main */
 
-main{
+.container-small{
     margin: auto;
-    max-width: 1000px;
-   padding: 50px;
+    max-width: 1000px; 
+  padding: 50px;
+   
 }
+
+   
+
 
 .input, .information{
     padding-top:50px;
@@ -195,6 +217,60 @@ main{
 .link-client{
     padding-top: 60px;
 }
+
+.container-flex2{
+    display: flex;
+}
+
+.square-small{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 34%;
+    
+}
+
+.square-mini{
+    flex: 0 1 25%;
+    
+}
+
+.img-dimension1{
+    height: 68px;
+    width: 230px;
+}
+
+.img-dimension2{
+ height: 200px;
+}
+
+.img-dimension3{
+    height: 100px;
+    width: 252px;
+}
+
+.img-dimension4{
+  height: 120px;
+  width: 260px;
+}
+
+.color-square1{
+    background-color: rgb(162, 211, 155);
+    border: 12px solid rgb(209, 233 , 205);
+}
+
+.color-square2{
+    background-color: rgb(97, 8, 43);
+}
+
+.color-square3{
+    background-color: rgb(0, 147, 206);
+}
+
+.color-square4{
+    background-color: rgb(255, 28, 28);
+}
+
+
 
 
 
